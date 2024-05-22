@@ -53,6 +53,7 @@ class ProjectResource extends Resource
                         'CSS' => 'CSS',
                         'HTML' => 'HTML',
                         'MySQL' => 'MySQL',
+                        'Lua' => 'Lua',
                     ])
 
             ]);
