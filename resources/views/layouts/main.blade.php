@@ -22,7 +22,7 @@
 
     <link rel="icon" href="{{ asset('logos/NLMain.png') }}" type="image/png">
 
-    @vite(['resources/css/app.css', 'resources/sass/app.scss', 'resources/js/app.js'])
+    @vite(['resources/sass/app.scss', 'resources/js/app.js'])
 </head>
 <body>
     <div class="content-container 2xl:p-4">
