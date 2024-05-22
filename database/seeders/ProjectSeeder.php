@@ -50,5 +50,9 @@ class ProjectSeeder extends Seeder {
                 'order' => 6
             ]
         ];
+
+        foreach ($projects as $project) {
+            \App\Models\Project::create($project);
+        }
     }
 }
