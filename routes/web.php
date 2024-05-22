@@ -12,5 +12,9 @@ Route::get('/experience', [ExperienceController::class, 'index'])->name('experie
 Route::get('/contact', [ContactController::class, 'index'])->name('contact');
 
 Route::domain('discord')->group(static function() {
-    Route::redirect('/', 'https://discord.gg/FnNXxAn');
+    Route::redirect('/', 'https://discord.gg/FnNXxAn', 301);
+});
+
+Route::domain('github')->group(static function() {
+    Route::redirect('/', 'https://github.com/NinjaLabs-Dev', 301);
 });
