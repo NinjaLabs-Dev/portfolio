@@ -78,9 +78,11 @@
                             <p class="mt-2">{{ $project->overview }}</p>
                         </div>
                         <div>
-                            <a href="{{ asset('/storage/' . $project->snapshot) }}" target="_blank">
-                                <img src="{{ asset('/storage/' . $project->snapshot) }}" alt="{{ $project->name }} Snapshop Picture" class="w-24 h-20 rounded-md">
-                            </a>
+                            @if($project->snapshot)
+                                <a href="{{ asset('/storage/' . $project->snapshot) }}" target="_blank">
+                                    <img src="{{ asset('/storage/' . $project->snapshot) }}" alt="{{ $project->name }} Snapshop Picture" class="w-24 h-20 rounded-md">
+                                </a>
+                            @endif
                         </div>
                     </div>
                 </div>
