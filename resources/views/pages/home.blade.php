@@ -8,17 +8,19 @@
             <p class="text-2xl">I break <span class="underline decoration-red-500">things</span>, then fix them.</p>
         </div>
         <div class="col-span-12 2xl:col-span-5 flex flex-col justify-center items-center 2xl:items-end">
-            <div class="relative rounded-xl shadow-xl overflow-hidden">
-                <img src="{{ asset('/storage/' . $recentProject->snapshot) }}" alt="{{ $recentProject->name }} Showase Image" class="h-[35vh] min-w-[60vh]">
+            @if($recentProject)
+                <div class="relative rounded-xl shadow-xl overflow-hidden">
+                    <img src="{{ asset('/storage/' . $recentProject->snapshot) }}" alt="{{ $recentProject->name }} Showase Image" class="h-[35vh] min-w-[60vh]">
 
-                <div class="info absolute bottom-0 left-0 bg-zinc-900 w-full py-4 px-4 flex justify-between items-center">
-                    <div class="flex flex-col">
-                        <p class="uppercase opacity-80">Recent Project</p>
-                        <h3 class="text-lg font-bold">{{ $recentProject->name }}</h3>
-                        <p>{{ $recentProject->overview }}</p>
+                    <div class="info absolute bottom-0 left-0 bg-zinc-900 w-full py-4 px-4 flex justify-between items-center">
+                        <div class="flex flex-col">
+                            <p class="uppercase opacity-80">Recent Project</p>
+                            <h3 class="text-lg font-bold">{{ $recentProject->name }}</h3>
+                            <p>{{ $recentProject->overview }}</p>
+                        </div>
                     </div>
                 </div>
-            </div>
+            @endif
         </div>
     </div>
 
