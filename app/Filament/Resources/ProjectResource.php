@@ -44,6 +44,7 @@ class ProjectResource extends Resource
                         'Vue.js' => 'Vue.js',
                         'React' => 'React',
                         'NuxtJS' => 'NuxtJS',
+                        'NodeJS' => 'NodeJS',
                         'PHP' => 'PHP',
                         'Laravel' => 'Laravel',
                         'WordPress' => 'WordPress',
@@ -51,7 +52,7 @@ class ProjectResource extends Resource
                         'Sass' => 'Sass',
                         'CSS' => 'CSS',
                         'HTML' => 'HTML',
-                        'MySQL' => 'MySQL'
+                        'MySQL' => 'MySQL',
                     ])
 
             ]);
