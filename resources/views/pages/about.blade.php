@@ -6,7 +6,7 @@
     <div class="grid grid-cols-12 gap-8 justify-center items-center w-full">
         <div class="col-span-12 xl:col-span-4 xl:col-start-2 text-center xl:text-left mt-8 px-8 xl:px-0 xl:mt-0">
             <h1 class="text-2xl font-bold mb-2 text-green-400">Ninja@ninjalabs.dev: <span class="text-white">$ whoami</span></h1>
-            <h2 class="text-4xl">Ninja <span class="text-md opacity-75">She/Her</span></h2>
+            <h2 class="text-4xl">Ninja <span class="text-lg opacity-75">She/Her</span></h2>
             <p class="text-lg">
                 I'm a {{ $age }} year old software engineer from the UK, the north to be exact. I started playing around in <a href="https://scratch.mit.edu/" target="_blank" nofollow class="underline font-bold">Scratch</a> and HTML when I was 11 and I never took my hands off the keyboard.
                 <br> <br>

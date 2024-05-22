@@ -11,7 +11,7 @@
                 <br> <br>
                 If you're interested in working with me or want to know more about what I can offer, feel free to reach out to one of my socials.
                 <br> <br>
-                However, if you want to get a little more <span class="italic">personal</span>, you can always send me an email at <a href="mailto:frsaer@ninjalabs" class="underline font-bold">fraser@ninjalabs.dev</a>!
+                However, if you want to get a little more <span class="italic">personal</span>, you can always send me an email at <a href="mailto:frsaer@ninjalabs.dev" class="underline font-bold">fraser@ninjalabs.dev</a>!
             </p>
         </div>
 

@@ -25,12 +25,12 @@
     </div>
 
     <div class="min-h-[30vh] flex items-center justify-center">
-        <div class="grid grid-cols-12 gap-4">
+        <div class="grid grid-cols-12">
             <a href="{{ route('about') }}" class="2xl:col-span-4 2xl:col-start-2 col-span-12 flex justify-between group items-center gap-4 p-6 border-4 rounded-lg shadow bg-[#111] border-[#222] hover:border-[#333] transition cursor-pointer">
                 <div class="flex flex-col">
                     <p class="opacity-80">$ whoami</p>
                     <h1 class="text-2xl font-bold">Who are you?</h1>
-                    <p>Always wondered how I found myself here or want to get into coding yourself? Maybe you're just a bit nosy and just want to know. Checkout my story!</p>
+                    <p>Always wondered how I found myself here or want to get into coding yourself? Maybe you're just a bit nosey and just want to know. Checkout my story!</p>
                 </div>
 
                 <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-24 h-24 group-hover:translate-x-2.5 transition-all">

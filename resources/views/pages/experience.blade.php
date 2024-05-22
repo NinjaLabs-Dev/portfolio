@@ -48,7 +48,7 @@
             <div class="2xl:col-span-4 2xl:col-start-8 col-span-12 flex justify-between group items-center gap-4 p-6 border-4 rounded-lg shadow bg-[#111] border-[#222]">
                 <div class="flex flex-col text-center w-full">
                     <h1 class="text-2xl font-bold">Projects</h1>
-                    <p>Below you'll find a collection of my projects recent and past showcasing what I've been upto in my spare time.</p>
+                    <p>Below you'll find a collection of my projects recent and past, showcasing what I've been upto in my spare time.</p>
                 </div>
             </div>
 
@@ -80,7 +80,7 @@
                         <div class="hidden lg:block">
                             @if($project->snapshot)
                                 <a href="{{ asset('/storage/' . $project->snapshot) }}" target="_blank">
-                                    <img src="{{ asset('/storage/' . $project->snapshot) }}" alt="{{ $project->name }} Snapshop Picture" class="w-24 h-20 rounded-md">
+                                    <img src="{{ asset('/storage/' . $project->snapshot) }}" alt="{{ $project->name }} Snapshop Picture" class="w-[20vh] rounded-md">
                                 </a>
                             @endif
                         </div>
