@@ -29,8 +29,7 @@ class ProjectResource extends Resource
                 Forms\Components\TextInput::make('project_url')
                     ->maxLength(255),
                 Forms\Components\Textarea::make('overview')
-                    ->required()
-                    ->maxLength(255),
+                    ->required(),
                 Forms\Components\FileUpload::make('snapshot')
                     ->image(),
                 Forms\Components\TextInput::make('order')
