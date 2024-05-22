@@ -11,5 +11,10 @@ class Project extends Model {
         'overview',
         'snapshot',
         'order',
+        'languages'
+    ];
+
+    protected $casts = [
+        'languages' => 'array'
     ];
 }

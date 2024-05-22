@@ -74,6 +74,13 @@
                                     </div>
                                 @endif
                             </div>
+                            @if($project->languages)
+                                <div class="mt-2">
+                                    @foreach($project->languages as $language)
+                                        <span class="text-xs font-medium me-2 px-2.5 py-0.5 rounded bg-[#333] text-zinc-300">{{ $language }}</span>
+                                    @endforeach
+                                </div>
+                            @endif
 
                             <p class="mt-2">{{ $project->overview }}</p>
                         </div>

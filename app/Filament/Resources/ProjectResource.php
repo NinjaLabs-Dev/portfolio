@@ -36,6 +36,24 @@ class ProjectResource extends Resource
                     ->type('number')
                     ->placeholder('0')
                     ->required(),
+                Forms\Components\Select::make('languages')
+                    ->multiple()
+                    ->options([
+                        'JavaScript' => 'JavaScript',
+                        'TypeScript' => 'TypeScript',
+                        'Vue.js' => 'Vue.js',
+                        'React' => 'React',
+                        'NuxtJS' => 'NuxtJS',
+                        'PHP' => 'PHP',
+                        'Laravel' => 'Laravel',
+                        'WordPress' => 'WordPress',
+                        'Tailwind CSS' => 'Tailwind CSS',
+                        'Sass' => 'Sass',
+                        'CSS' => 'CSS',
+                        'HTML' => 'HTML',
+                        'MySQL' => 'MySQL'
+                    ])
+
             ]);
     }
 
