@@ -3,7 +3,7 @@
 @section('flex-wrapper', true)
 
 @section('content')
-    <div class="grid grid-cols-12 gap-8 justify-center items-center w-full">
+    <div class="grid grid-cols-12 gap-8 justify-center w-full mt-10 xl:mt-40">
         <div class="col-span-12 xl:col-span-5 xl:col-start-2 flex flex-col gap-4 text-center xl:text-left mt-8 px-8 xl:px-0 xl:mt-0">
             <div class="2xl:col-span-4 2xl:col-start-8 col-span-12 flex justify-between group items-center gap-4 p-6 border-4 rounded-lg shadow bg-[#111] border-[#222]">
                 <div class="flex flex-col text-center w-full">
@@ -77,7 +77,7 @@
 
                             <p class="mt-2">{{ $project->overview }}</p>
                         </div>
-                        <div>
+                        <div class="hidden lg:block">
                             @if($project->snapshot)
                                 <a href="{{ asset('/storage/' . $project->snapshot) }}" target="_blank">
                                     <img src="{{ asset('/storage/' . $project->snapshot) }}" alt="{{ $project->name }} Snapshop Picture" class="w-24 h-20 rounded-md">
@@ -87,6 +87,12 @@
                     </div>
                 </div>
             @endforeach
+
+            <div class="2xl:col-span-4 2xl:col-start-8 col-span-12 flex justify-between group items-center gap-4 p-6 border-4 rounded-lg shadow bg-[#111] border-[#222]">
+                <div class="w-full">
+                    <p class="text-center">Want to see more of my work? Check out my <a href="https://github.com/NinjaLabs-Dev" target="_blank" nofollow class="underline font-bold">Github</a>!</p>
+                </div>
+            </div>
         </div>
     </div>
 @endsection
