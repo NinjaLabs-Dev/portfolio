@@ -36,9 +36,11 @@
                 <div class="noise-container">
                     <div class="noise"></div>
                 </div>
-                <div class="flex justify-center items-center my-4 xl:m-0">
-                    <x-navbar></x-navbar>
-                </div>
+                @sectionMissing('noNavbar')
+                    <div class="flex justify-center items-center my-4 xl:m-0">
+                        <x-navbar></x-navbar>
+                    </div>
+                @endif
 
                 <main class="inner-wrapper @hasSection('flex-wrapper')flex flex-grow @endif">
                     @yield('content')
