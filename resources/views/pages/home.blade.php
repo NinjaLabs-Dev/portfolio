@@ -5,7 +5,7 @@
     <div class="hero grid grid-cols-12 h-[50vh] my-4">
         <div class="col-span-12 2xl:col-span-5 2xl:col-start-2 flex flex-col justify-center items-center 2xl:items-start">
             <h1 class="text-6xl font-bold mb-2">I'm Ninja 👋</h1>
-            <p class="text-2xl">I break <span class="underline decoration-red-500">things</span>, then fix them.</p>
+            <!--<p class="text-2xl">I break <span class="underline decoration-red-500">things</span>, then fix them.</p>-->
         </div>
         <div class="col-span-12 2xl:col-span-5 flex flex-col justify-center items-center 2xl:items-end">
             @if($recentProject)

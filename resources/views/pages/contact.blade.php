@@ -23,12 +23,12 @@
                 </div>
             </a>
 
-            <a href="https://x.com/Ninjalabs_" target="_blank" class="flex justify-center group items-center gap-4 p-6 border-4 rounded-lg shadow bg-[#111] border-[#222] hover:border-[#333] transition cursor-pointer">
+            <!--<a href="https://x.com/Ninjalabs_" target="_blank" class="flex justify-center group items-center gap-4 p-6 border-4 rounded-lg shadow bg-[#111] border-[#222] hover:border-[#333] transition cursor-pointer">
                 <div class="flex flex-col text-center">
                     <h1 class="text-2xl font-bold">X (Twitter)</h1>
                     <p>@ninjalabs_</p>
                 </div>
-            </a>
+            </a>-->
 
             <a href="https://github.com/NinjaLabs-Dev" target="_blank" class="flex justify-center group items-center gap-4 p-6 border-4 rounded-lg shadow bg-[#111] border-[#222] hover:border-[#333] transition cursor-pointer">
                 <div class="flex flex-col text-center">
@@ -37,12 +37,12 @@
                 </div>
             </a>
 
-            <a href="https://tech.lgbt/@NinjaLabs" target="_blank" class="flex justify-center group items-center gap-4 p-6 border-4 rounded-lg shadow bg-[#111] border-[#222] hover:border-[#333] transition cursor-pointer">
+            <!--<a href="https://tech.lgbt/@NinjaLabs" target="_blank" class="flex justify-center group items-center gap-4 p-6 border-4 rounded-lg shadow bg-[#111] border-[#222] hover:border-[#333] transition cursor-pointer">
                 <div class="flex flex-col text-center">
                     <h1 class="text-2xl font-bold">Mastodon</h1>
                     <p>@NinjaLabs</p>
                 </div>
-            </a>
+            </a>-->
         </div>
     </div>
 @endsection
