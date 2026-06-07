@@ -31,11 +31,11 @@ class ExperienceRoleResource extends Resource
                     ->label('Order')
                     ->type('number'),
 
-                Forms\Components\Datepicker::make('start_date')
+                Forms\Components\DatePicker::make('start_date')
                     ->label('Start Date')
                     ->required(),
 
-                Forms\Components\Datepicker::make('end_date')
+                Forms\Components\DatePicker::make('end_date')
                     ->label('End Date')
                     ->nullable(),
             ]);

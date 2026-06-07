@@ -22,10 +22,10 @@ class RolesRelationManager extends RelationManager
                     ->required()
                     ->maxLength(255),
 
-                Forms\Components\Datepicker::make('start_date')
+                Forms\Components\DatePicker::make('start_date')
                     ->required(),
 
-                Forms\Components\Datepicker::make('end_date')
+                Forms\Components\DatePicker::make('end_date')
                     ->nullable(),
 
                 Forms\Components\TextInput::make('order')
