@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\CvController;
 use App\Http\Controllers\Pages\AboutController;
 use App\Http\Controllers\Pages\ContactController;
 use App\Http\Controllers\Pages\ExperienceController;
@@ -13,6 +14,8 @@ Route::get('/experience', [ExperienceController::class, 'index'])->name('experie
 Route::get('/contact', [ContactController::class, 'index'])->name('contact');
 
 Route::get('/terms-of-sale', [TermsOfSaleController::class, 'index'])->name('terms-of-sale');
+
+Route::get('cv/{cv:approval_code}', [CvController::class, 'index'])->name('cv');
 
 Route::domain('discord')->group(static function() {
     Route::redirect('/', 'https://discord.gg/FnNXxAn', 301);
